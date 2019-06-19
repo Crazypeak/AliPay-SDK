@@ -1,0 +1,20 @@
+{
+    "name": "crazypeak/alipay-sdk",
+    "description": "AliPay SDK for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CrazyPeak",
+            "email": "CrazyPeak@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliPay\\": "aop/"
+        }
+    }
+}
