@@ -6,6 +6,7 @@
  * Time: 下午6:21
  */
 
+namespace AliPay;
 class SignData {
 
     public $signSourceData=null;

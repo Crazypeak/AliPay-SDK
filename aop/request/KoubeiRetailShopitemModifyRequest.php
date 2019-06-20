@@ -1,4 +1,5 @@
 <?php
+namespace AliPay;
 namespace AliPay\request;
 /**
  * ALIPAY API: koubei.retail.shopitem.modify request

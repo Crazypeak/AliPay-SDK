@@ -1,5 +1,4 @@
 <?php
-
 namespace AliPay;
 require_once 'AopEncrypt.php';
 
