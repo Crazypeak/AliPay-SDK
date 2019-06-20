@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: zoloz.identification.user.web.query request
  *

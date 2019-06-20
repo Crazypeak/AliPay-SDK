@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: alipay.account.exrate.traderequest.create request
  *

@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: alipay.user.auth.zhimaorg.identity.apply request
  *

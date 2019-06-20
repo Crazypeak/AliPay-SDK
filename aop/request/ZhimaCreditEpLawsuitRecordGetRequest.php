@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: zhima.credit.ep.lawsuit.record.get request
  *

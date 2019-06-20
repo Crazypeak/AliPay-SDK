@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: alipay.ins.cooperation.region.qrcode.apply request
  *

@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: ant.merchant.expand.contract.facetoface.query request
  *

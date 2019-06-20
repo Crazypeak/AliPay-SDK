@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: koubei.marketing.data.nearmall.query request
  *

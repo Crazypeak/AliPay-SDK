@@ -3,6 +3,827 @@
   <component name="ChangeListManager">
     <list default="true" id="83d83a59-58dc-4668-9aa2-50a66900725e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AftAifinFireeyeOcrImageQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AftAifinFireeyeOcrImageQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AftFinsecureRiskplusSecurityPolicyQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AftFinsecureRiskplusSecurityPolicyQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAccountExrateAdviceAcceptRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAccountExrateAdviceAcceptRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAccountExrateAllclientrateQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAccountExrateAllclientrateQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAccountExrateRatequeryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAccountExrateRatequeryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAccountExrateTraderequestCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAccountExrateTraderequestCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAcquireCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAcquireCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAcquireCloseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAcquireCloseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAcquireCreateandpayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAcquireCreateandpayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAcquirePrecreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAcquirePrecreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAcquireQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAcquireQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAcquireRefundRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAcquireRefundRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAppTokenGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAppTokenGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAssetPointBalanceQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAssetPointBalanceQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAssetPointBudgetQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAssetPointBudgetQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAssetPointOrderCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAssetPointOrderCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayAssetPointOrderQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayAssetPointOrderQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayBossCsChannelQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayBossCsChannelQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayBossFncXwbtestRetModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayBossFncXwbtestRetModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayBossProdArrangementOfflineQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayBossProdArrangementOfflineQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceAdContractSignRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceAdContractSignRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceAirXfgDsgModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceAirXfgDsgModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorCityQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorCityQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorDepositCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorDepositCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorDepositConfirmRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorDepositConfirmRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorDepositQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorDepositQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorFunctionQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorFunctionQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorScriptQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorScriptQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorStationQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorStationQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherConfirmRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherConfirmRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherGenerateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherGenerateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherRefundRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherRefundRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceCityfacilitatorVoucherUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceDataCustommetricSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceDataCustommetricSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceDataLogdataSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceDataLogdataSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceDataMonitordataSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceDataMonitordataSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceEducateStudentinfoShareRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceEducateStudentinfoShareRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceIotDeviceserviceCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceIotDeviceserviceCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceLotteryPresentSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceLotteryPresentSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceLotteryPresentlistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceLotteryPresentlistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceLotteryTypelistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceLotteryTypelistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceTransportOfflinepayKeyQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceTransportOfflinepayKeyQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceTransportOfflinepayRecordVerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceTransportOfflinepayRecordVerifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayCommerceTransportOfflinepayUserblacklistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayCommerceTransportOfflinepayUserblacklistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderConfirmRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderConfirmRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderRefundRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderRefundRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderRefuseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderRefuseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderSpModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderSpModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderTransferRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiOrderTransferRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiServiceModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiServiceModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiSpModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiSpModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDaoweiSpScheduleModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDaoweiSpScheduleModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataAiserviceSgxGatewayQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataAiserviceSgxGatewayQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataBillDownloadurlGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataBillDownloadurlGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataexchangeSfasdfRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataexchangeSfasdfRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceAdOfflineRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceAdOfflineRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceAdOnlineRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceAdOnlineRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceBillDownloadurlQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceBillDownloadurlQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceChinaremodelQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceChinaremodelQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceCodeRecoRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceCodeRecoRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceSdfsdfRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceSdfsdfRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceShoppingmallrecShopQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceShoppingmallrecShopQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceShoppingmallrecVoucherQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceShoppingmallrecVoucherQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceUserlevelZrankGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayDataDataserviceUserlevelZrankGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppBillAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppBillAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppBillGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppBillGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppBillSearchRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppBillSearchRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceApplyResultSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceApplyResultSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceAuthSignRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceAuthSignRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceAuthUnsignRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceAuthUnsignRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceInfoSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceInfoSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceMerchantlistEnterApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceMerchantlistEnterApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceSyncSimpleSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceSyncSimpleSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceTitleDynamicGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceTitleDynamicGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceTitleListGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppInvoiceTitleListGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppMerchantConfigGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppMerchantConfigGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductBillPayStatusRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductBillPayStatusRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductPayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductPayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductSignAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductSignAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductSignCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductSignCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductSignQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductSignQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductSignValidateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEbppPdeductSignValidateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcapiprodCreditGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcapiprodCreditGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDataPutRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDataPutRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnContractGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnContractGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnDrawndnlistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnDrawndnlistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnFeerecordQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnFeerecordQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnLendingrecordQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnLendingrecordQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnPaymentscheduleGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnPaymentscheduleGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnRepaymentrecordQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcapiprodDrawndnRepaymentrecordQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcardEduPublicBindRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcardEduPublicBindRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCityserviceMessageSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCityserviceMessageSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBasicserviceInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBasicserviceInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBasicserviceModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBasicserviceModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillBatchUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillBatchUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeBillSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeCommunityBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeCommunityBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeCommunityCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeCommunityCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeCommunityDetailsQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeCommunityDetailsQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeCommunityModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeCommunityModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeNoticeDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeNoticeDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeNoticePublishRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeNoticePublishRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifePayResultQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifePayResultQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRepairStatusUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRepairStatusUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeResidentinfoDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeResidentinfoDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeResidentinfoUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeResidentinfoUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRoominfoDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRoominfoDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRoominfoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRoominfoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRoominfoUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRoominfoUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRooominfoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeRooominfoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeUseridentityStatusUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoCplifeUseridentityStatusUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtBillingModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtBillingModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtBillingQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtBillingQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtBillingSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtBillingSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtParentQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtParentQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtSchoolinfoModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtSchoolinfoModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtStudentModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtStudentModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtStudentQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoEduKtStudentQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarCarlibInfoPushRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarCarlibInfoPushRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarCarmodelModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarCarmodelModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarDataExternalQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarDataExternalQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarDataExternalSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarDataExternalSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarDataserviceViolationinfoShareRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarDataserviceViolationinfoShareRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarMaintainDataUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarMaintainDataUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarMaintainOrderCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarMaintainOrderCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarMaintainOrderstatusUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarMaintainOrderstatusUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarOrderStatusQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarOrderStatusQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingCardbarcodeCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingCardbarcodeCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingChargeinfoSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingChargeinfoSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingConfigQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingConfigQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingConfigSetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingConfigSetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingEnterinfoSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingEnterinfoSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingExitinfoSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingExitinfoSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingLotbarcodeCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingLotbarcodeCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingOrderSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingOrderSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingOrderUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingOrderUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingOrderstatusQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingOrderstatusQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingParkinglotinfoCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingParkinglotinfoCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingParkinglotinfoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingParkinglotinfoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingParkinglotinfoUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingParkinglotinfoUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingSpaceinfoSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingSpaceinfoSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingVehicleQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarParkingVehicleQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarPromoTicketPushRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarPromoTicketPushRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarPromoTicketSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarPromoTicketSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarPromoVoucherVerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarPromoVoucherVerifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarTradeRefundRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarTradeRefundRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarViolationCityPushRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarViolationCityPushRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoMycarViolationInfoPushRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoMycarViolationInfoPushRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayEcoWelfareCodeSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayEcoWelfareCodeSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayExscUserCurrentsignGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayExscUserCurrentsignGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayExscUserFirstfundinpourGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayExscUserFirstfundinpourGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayExscUserFirstsignGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayExscUserFirstsignGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFlashsalesStockSyncUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFlashsalesStockSyncUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundAuthOperationCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundAuthOperationCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundAuthOperationDetailQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundAuthOperationDetailQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundAuthOrderAppFreezeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundAuthOrderAppFreezeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundAuthOrderFreezeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundAuthOrderFreezeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundAuthOrderUnfreezeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundAuthOrderUnfreezeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundAuthOrderVoucherCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundAuthOrderVoucherCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundBatchDetailQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundBatchDetailQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundBatchTransferRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundBatchTransferRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundCouponOperationQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundCouponOperationQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderAgreementPayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderAgreementPayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderAppPayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderAppPayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderDisburseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderDisburseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderPagePayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderPagePayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderRefundRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundCouponOrderRefundRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundTransOrderQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundTransOrderQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayFundTransToaccountTransferRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayFundTransToaccountTransferRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodCommonConsultRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodCommonConsultRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodEnquriyApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodEnquriyApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodPolicyApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodPolicyApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodPolicyCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodPolicyCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodQuoteApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodQuoteApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodQuoteQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodQuoteQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodUserCertifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsAutoAutoinsprodUserCertifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsAutoCarSaveRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsAutoCarSaveRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsCooperationProductOfflineBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsCooperationProductOfflineBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsCooperationProductQrcodeApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsCooperationProductQrcodeApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsCooperationRegionQrcodeApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsCooperationRegionQrcodeApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsSceneApplicationIssueConfirmRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsSceneApplicationIssueConfirmRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsSceneCouponReceiveRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsSceneCouponReceiveRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayInsSceneCouponSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayInsSceneCouponSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignActivityOfflineCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignActivityOfflineCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignActivityOfflineTriggerRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignActivityOfflineTriggerRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashDetailQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashDetailQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashListQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashListQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashStatusModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashStatusModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashTriggerRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCashTriggerRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCertCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignCertCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountBudgetAppendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountBudgetAppendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountBudgetCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountBudgetCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountBudgetQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountBudgetQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountStatusUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountStatusUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountWhitelistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountWhitelistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountWhitelistUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDiscountWhitelistUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampStatusUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampStatusUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampWhitelistCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignDrawcampWhitelistCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignPrizeAmountQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCampaignPrizeAmountQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardActivateformQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardActivateformQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardActivateurlApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardActivateurlApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardBenefitCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardBenefitCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardBenefitDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardBenefitDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardBenefitModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardBenefitModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardBenefitQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardBenefitQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardConsumeSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardConsumeSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardFormtemplateSetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardFormtemplateSetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardOpenRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardOpenRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardTemplateBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardTemplateBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardTemplateCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardTemplateCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardTemplateModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardTemplateModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardTemplateQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardTemplateQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCardUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCardUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCashlessvoucherTemplateCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCashlessvoucherTemplateCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCashlessvoucherTemplateModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCashlessvoucherTemplateModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCashvoucherTemplateCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCashvoucherTemplateCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCashvoucherTemplateModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCashvoucherTemplateModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseOperateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseOperateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseReportQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpAdvertiseReportQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpRecommendQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingCdpRecommendQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingExchangevoucherTemplateCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingExchangevoucherTemplateCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingExchangevoucherUseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingExchangevoucherUseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingFacetofaceDecodeUseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingFacetofaceDecodeUseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieActivityCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieActivityCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieActivityQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieActivityQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieEditorQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieEditorQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieMemberCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieMemberCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesConfirmRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesConfirmRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSpaceBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSpaceBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSpaceCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSpaceCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSpaceQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSpaceQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieTemplateBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieTemplateBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieTemplateQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieTemplateQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieTemplateSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieTemplateSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingUserulePidQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingUserulePidQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherAuthSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherAuthSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherConfirmRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherConfirmRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherListQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherListQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherStockCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherStockCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherStockMatchRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherStockMatchRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherStockQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherStockQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherStockUseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherStockUseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherTemplateDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherTemplateDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherTemplatedetailQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherTemplatedetailQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherTemplatelistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMarketingVoucherTemplatelistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMdataTagGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMdataTagGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMemberCouponQuerylistRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMemberCouponQuerylistRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderConfirmpayurlGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderConfirmpayurlGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderDirectPayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderDirectPayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderFreezeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderFreezeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderFreezepayurlGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderFreezepayurlGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderUnfreezeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMicropayOrderUnfreezeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconDeviceAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconDeviceAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconDeviceDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconDeviceDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconDeviceModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconDeviceModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconDeviceQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconDeviceQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconMessageSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileBeaconMessageSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileBksigntokenVerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileBksigntokenVerifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileCodeCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileCodeCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileCodeQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileCodeQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAccountAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAccountAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAccountDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAccountDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAccountQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAccountQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAccountResetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAccountResetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAppinfoUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicAppinfoUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicContactFollowListRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicContactFollowListRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicFollowListRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicFollowListRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicGisGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicGisGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicInfoModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicInfoModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicInfoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicInfoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelUserAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelUserAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelUserDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelUserDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelUserQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicLabelUserQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuUserQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuUserQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuUserUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMenuUserUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessageCustomSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessageCustomSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessageLabelSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessageLabelSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessagePushRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessagePushRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessageSingleSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessageSingleSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessageTotalSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessageTotalSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessagebatchPushRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessagebatchPushRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessagespecifyPushRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicMessagespecifyPushRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicQrcodeCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicQrcodeCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicShortlinkCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicShortlinkCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicTemplateMessageDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicTemplateMessageDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicTemplateMessageGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicTemplateMessageGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicTemplateMessageModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicTemplateMessageModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobilePublicTemplateMessageQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobilePublicTemplateMessageQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileRecommendGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileRecommendGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileShakeUserQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileShakeUserQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicAccountQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicAccountQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicExpressUserQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicExpressUserQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicFollowListRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicFollowListRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicMenuQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicMenuQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicMessageCustomSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMobileStdPublicMessageCustomSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMpointprodBenefitDetailGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMpointprodBenefitDetailGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMsaasMediarecogVoiceMediaaudioUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMsaasMediarecogVoiceMediaaudioUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayMsaasPromotionCpainfoCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayMsaasPromotionCpainfoCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketApplyorderBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketApplyorderBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketItemCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketItemCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketItemModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketItemModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketItemStateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketItemStateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketMcommentQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketMcommentQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketProductBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketProductBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketProductQuerydetailRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketProductQuerydetailRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketReporterrorCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketReporterrorCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopApplyorderCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopApplyorderCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopCategoryQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopCategoryQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopDiscountQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopDiscountQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopPublicBindRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopPublicBindRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopPublicUnbindRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopPublicUnbindRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopQuerydetailRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopQuerydetailRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopSummaryBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketShopSummaryBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherCodeUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherCodeUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherOfflineRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherOfflineRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherStatusQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherStatusQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherUseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMarketingVoucherUseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMaterialImageDownloadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMaterialImageDownloadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineMaterialImageUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineMaterialImageUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderDishQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderDishQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderEquipmentAuthQuerybypageRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderEquipmentAuthQuerybypageRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderEquipmentAuthRemoveRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderEquipmentAuthRemoveRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderMonitorLogSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderMonitorLogSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderShopactionRecordRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderShopactionRecordRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderUseractionRecordRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOfflineProviderUseractionRecordRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentConfirmRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentConfirmRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentFacetofaceSignRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentFacetofaceSignRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentMiniCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentMiniCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentMobilepaySignRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentMobilepaySignRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentOfflinepaymentSignRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentOfflinepaymentSignRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentOrderQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentOrderQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentSignstatusQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentSignstatusQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAgentZhimabriefSignRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAgentZhimabriefSignRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppCallQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppCallQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppCodetesttestRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppCodetesttestRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppLingbalingliuQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppLingbalingliuQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppLingjiuyisiCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppLingjiuyisiCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppLingjiuyiwuBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppLingjiuyiwuBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppMembersCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppMembersCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppMembersDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppMembersDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppMembersQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppMembersQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppMiniTemplatemessageSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppMiniTemplatemessageSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppNotifyModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppNotifyModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppNotifyVerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppNotifyVerifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppOpenbizmockMessageSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppOpenbizmockMessageSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppQrcodeCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppQrcodeCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppSmgMsgSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppSmgMsgSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppSmsgDataSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppSmsgDataSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppUpdattestBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppUpdattestBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppXwbtestabcQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppXwbtestabcQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppYiyiyiwuQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppYiyiyiwuQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAppYufanlingsanyaowuYufalingsanyaowuQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAppYufanlingsanyaowuYufalingsanyaowuQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAuthIndustryPlatformCreateTokenRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAuthIndustryPlatformCreateTokenRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAuthTokenAppQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAuthTokenAppQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenAuthTokenAppRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenAuthTokenAppRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenBizCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenBizCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenEchoOfflineSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenEchoOfflineSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMessagetestCesSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMessagetestCesSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniBaseinfoModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniBaseinfoModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniBaseinfoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniBaseinfoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniCategoryQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniCategoryQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniDataVisitQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniDataVisitQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniExperienceCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniExperienceCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniExperienceCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniExperienceCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniExperienceQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniExperienceQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniReleaststBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniReleaststBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniSafedomainCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniSafedomainCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniSafedomainDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniSafedomainDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniTemplateUsageQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniTemplateUsageQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniTemplatemessageUsertemplateApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniTemplatemessageUsertemplateApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniTinyappExistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniTinyappExistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionAuditApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionAuditApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionAuditedCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionAuditedCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionBuildQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionBuildQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionDetailQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionDetailQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionGrayCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionGrayCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionGrayOnlineRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionGrayOnlineRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionListQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionListQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionOfflineRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionOfflineRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionOnlineRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionOnlineRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionRollbackRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionRollbackRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenMiniVersionUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenNewgotoneCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenNewgotoneCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenOperationOpenbizmockBizQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenOperationOpenbizmockBizQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAccountCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAccountCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAccountDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAccountDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAccountQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAccountQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAccountResetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAccountResetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAdvertBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAdvertBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAdvertCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAdvertCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAdvertDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAdvertDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAdvertModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicAdvertModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicArticlesummaryDataBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicArticlesummaryDataBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicComptestCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicComptestCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicContactFollowBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicContactFollowBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicDefaultExtensionCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicDefaultExtensionCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicFollowBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicFollowBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGisQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGisQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupCrowdQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupCrowdQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicGroupModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicInfoModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicInfoModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicInfoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicInfoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelUserCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelUserCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelUserDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelUserDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelUserQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLabelUserQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeAboardApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeAboardApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeAccountCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeAccountCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeAgentCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeAgentCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeAgentcreateQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeAgentcreateQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeDebarkApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeDebarkApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeLabelBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeLabelBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeLabelCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeLabelCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeLabelDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeLabelDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeLabelModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeLabelModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeMsgRecallRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeMsgRecallRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeMsgSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicLifeMsgSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMatchuserLabelCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMatchuserLabelCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMatchuserLabelDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMatchuserLabelDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuDataBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuDataBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMenuQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageContentCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageContentCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageContentModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageContentModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageCustomSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageCustomSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageGroupSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageGroupSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageLabelSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageLabelSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageSingleSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageSingleSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageTotalSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMessageTotalSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMultimediaDownloadProxyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicMultimediaDownloadProxyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPartnerMenuOperateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPartnerMenuOperateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPartnerMenuQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPartnerMenuQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPartnerSubscribeSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPartnerSubscribeSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPayeeBindCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPayeeBindCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPayeeBindDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPayeeBindDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedExtensionBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedExtensionBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedExtensionCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedExtensionCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedExtensionDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedExtensionDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedExtensionSetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedExtensionSetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedMenuCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedMenuCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedMenuDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicPersonalizedMenuDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicQrcodeCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicQrcodeCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicSettingCategoryQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicSettingCategoryQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicShortlinkCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicShortlinkCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicSinglearticleDataBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicSinglearticleDataBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTemplateMessageGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTemplateMessageGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTemplateMessageIndustryModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTemplateMessageIndustryModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicThirdCustomerServiceRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicThirdCustomerServiceRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTopicBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTopicBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTopicCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTopicCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTopicDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTopicDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTopicModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicTopicModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicUserDataBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicUserDataBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicUserFollowQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicUserFollowQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenPublicXwbtestabcdBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenPublicXwbtestabcdBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketCommodityShopOfflineRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketCommodityShopOfflineRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketCommodityShopOnlineRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketCommodityShopOnlineRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderAcceptRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderAcceptRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderItemCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderItemCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderItemCompleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderItemCompleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderItemConfirmRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderItemConfirmRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderNotifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderNotifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderRejectRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenServicemarketOrderRejectRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayOpenSmsgDataSetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayOpenSmsgDataSetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassCodeAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassCodeAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassCodeVerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassCodeVerifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassFileAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassFileAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassInstanceAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassInstanceAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassInstanceUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassInstanceUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassSyncAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassSyncAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassSyncUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassSyncUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassTemplateAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassTemplateAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassTemplateUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassTemplateUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassTplAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassTplAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassTplContentAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassTplContentAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassTplContentUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassTplContentUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassTplUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassTplUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPassVerifyQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPassVerifyQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPcreditHuabeiAuthAccumulationQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPcreditHuabeiAuthAccumulationQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPcreditHuabeiAuthSettleApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPcreditHuabeiAuthSettleApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPcreditHuabeiPromoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPcreditHuabeiPromoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPcreditLoanApplyCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPcreditLoanApplyCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPcreditLoanRefundCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPcreditLoanRefundCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPlatformOpenidGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPlatformOpenidGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPlatformUseridGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPlatformUseridGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPointBalanceGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPointBalanceGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPointBudgetGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPointBudgetGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPointOrderAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPointOrderAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPointOrderGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPointOrderGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayPromorulecenterRuleAnalyzeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayPromorulecenterRuleAnalyzeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityInfoAnalysisRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityInfoAnalysisRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdAlipaySecurityProdTestRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdAlipaySecurityProdTestRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdAmlriskQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdAmlriskQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFacerepoAddRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFacerepoAddRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFacerepoSearchRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFacerepoSearchRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintApplyInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintApplyInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintDeviceVerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintDeviceVerifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintRiskcontrolQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintRiskcontrolQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintVerifyInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintVerifyInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintVerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdFingerprintVerifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdSignatureFileUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdSignatureFileUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdSignatureTaskApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdSignatureTaskApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdSignatureTaskCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdSignatureTaskCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdSignatureTaskQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdSignatureTaskQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdXwbtestabcAbcQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdXwbtestabcAbcQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityProdXwbtestprodQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityProdXwbtestprodQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskContentDetectRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskContentDetectRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskCustomerriskQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskCustomerriskQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskCustomerriskSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskCustomerriskSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskDetectRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskDetectRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskHideDeviceidQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskHideDeviceidQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskRainscoreQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityRiskRainscoreQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityTestQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityTestQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySecurityTesttestQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySecurityTesttestQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipaySystemOauthTokenRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipaySystemOauthTokenRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeAdvanceConsultRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeAdvanceConsultRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeAppPayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeAppPayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeCloseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeCloseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeCustomsDeclareRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeCustomsDeclareRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeCustomsQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeCustomsQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeFastpayRefundQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeFastpayRefundQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeOrderSettleRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeOrderSettleRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeOrderinfoSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeOrderinfoSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradePagePayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradePagePayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradePayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradePayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradePrecreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradePrecreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeRefundRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeRefundRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeVendorpayDevicedataUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeVendorpayDevicedataUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTradeWapPayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTradeWapPayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTransferThirdpartyBillCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTransferThirdpartyBillCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTrustUserAuthSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTrustUserAuthSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTrustUserReportGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTrustUserReportGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTrustUserRiskidentifyGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTrustUserRiskidentifyGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTrustUserScoreGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTrustUserScoreGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayTrustUserTokenGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayTrustUserTokenGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserAccountFreezeGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserAccountFreezeGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserAccountGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserAccountGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserAccountSearchRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserAccountSearchRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserAccountUseridBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserAccountUseridBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserAddressQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserAddressQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserAuthZhimaorgIdentityApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserAuthZhimaorgIdentityApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserCertifyOpenCertifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserCertifyOpenCertifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserCertifyOpenInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserCertifyOpenInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserCertifyOpenQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserCertifyOpenQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserContractGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserContractGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserFinanceinfoShareRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserFinanceinfoShareRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserInfoAuthRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserInfoAuthRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserInfoShareRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserInfoShareRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserTestRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserTestRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserTradeSearchRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserTradeSearchRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserTwostageCommonUseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserTwostageCommonUseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayUserUserinfoShareRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayUserUserinfoShareRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayZdataassetsEasyserviceRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayZdataassetsEasyserviceRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayZdataassetsFcdatalabZdatamergetaskRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayZdataassetsFcdatalabZdatamergetaskRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayZdataassetsMetadataRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayZdataassetsMetadataRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayZdatafrontCommonQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayZdatafrontCommonQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayZdatafrontDatatransferedFileuploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayZdatafrontDatatransferedFileuploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayZdatafrontDatatransferedSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayZdatafrontDatatransferedSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayZdataserviceUnidataQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayZdataserviceUnidataQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AlipayZmscoreZrankGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AlipayZmscoreZrankGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AmapMapMapserviceTeseBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AmapMapMapserviceTeseBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AntMerchantExpandContractFacetofaceQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AntMerchantExpandContractFacetofaceQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AntMerchantExpandContractFacetofaceSignRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AntMerchantExpandContractFacetofaceSignRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AntMerchantExpandEnterpriseApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AntMerchantExpandEnterpriseApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AntMerchantExpandImageUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AntMerchantExpandImageUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AntMerchantExpandMapplyorderQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AntMerchantExpandMapplyorderQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AntMerchantExpandMerchantStorelistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AntMerchantExpandMerchantStorelistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/AntMerchantExpandPersonalApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/AntMerchantExpandPersonalApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountAuthwebBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountAuthwebBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountWebBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryDiscountWebBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryItemApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiAdvertDeliveryItemApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCateringCommodityOrderBuyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCateringCommodityOrderBuyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCateringCrowdgroupConditionQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCateringCrowdgroupConditionQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCateringCrowdgroupConditionSetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCateringCrowdgroupConditionSetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCateringTablecodeQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCateringTablecodeQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCateringTablelistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCateringTablelistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataProviderBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataProviderBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataProviderCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataProviderCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataProviderModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataProviderModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataWorkBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataWorkBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataWorkCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataWorkCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataWorkDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataWorkDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataWorkModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiCraftsmanDataWorkModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemCategoryChildrenBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemCategoryChildrenBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemBrandQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemBrandQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemCategoryQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemCategoryQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemExistedQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemExistedQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemExtitemUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiItemStateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiItemStateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityOfflineRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityOfflineRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignActivityQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignAssetDetailQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignAssetDetailQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdCountRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdCountRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdDetailQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdDetailQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignCrowdModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignDetailInfoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignDetailInfoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoConsultRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoConsultRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentPromoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentShopConsultRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentShopConsultRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentTemplateConsultRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignIntelligentTemplateConsultRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityCloseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityCloseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignItemMerchantactivityQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignRecruitApplyQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignRecruitApplyQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignRecruitShopQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignRecruitShopQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignTagsQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignTagsQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignUserAssetQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingCampaignUserAssetQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataActivityBillDownloadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataActivityBillDownloadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataActivityReportQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataActivityReportQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataAlisisReportBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataAlisisReportBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataAlisisReportQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataAlisisReportQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataBizadviserMemberprofileQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataBizadviserMemberprofileQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataBizadviserMyddsreportQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataBizadviserMyddsreportQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataBizadviserMyreportQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataBizadviserMyreportQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportDetailQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportDetailQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportSaveRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataCustomreportSaveRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataDishdiagnoseBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataDishdiagnoseBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataDishdiagnosetypeBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataDishdiagnosetypeBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataEnterpriseStaffinfoUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataEnterpriseStaffinfoUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataIndicatorQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataIndicatorQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataIntelligentEffectQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataIntelligentEffectQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataIntelligentIndicatorQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataIntelligentIndicatorQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataIsvShopQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataIsvShopQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataMallShopitemsQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataMallShopitemsQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataMemberReportQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataMemberReportQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataMessageDeliverRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataMessageDeliverRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataNearmallQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataNearmallQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataRetailDmQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataRetailDmQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataSmartactivityConfigRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataSmartactivityConfigRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataSmartactivityForecastRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataSmartactivityForecastRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataSmartmanagementDiagnoseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataSmartmanagementDiagnoseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataTradeHabbitQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingDataTradeHabbitQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingToolIsvMerchantQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingToolIsvMerchantQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingToolPointsQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingToolPointsQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingToolPointsUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingToolPointsUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMarketingToolPrizesendAuthRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMarketingToolPrizesendAuthRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMemberBrandownerNameQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMemberBrandownerNameQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMemberDataDesdBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMemberDataDesdBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMemberDataIsvCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMemberDataIsvCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMemberDataOauthQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMemberDataOauthQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMemberRetailerQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMemberRetailerQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMerchantKbdeviceDevicesBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMerchantKbdeviceDevicesBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiMerchantKbdeviceDispenserQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiMerchantKbdeviceDispenserQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiQualityTestCloudacptActivityQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiQualityTestCloudacptActivityQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiQualityTestCloudacptBatchQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiQualityTestCloudacptBatchQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiQualityTestCloudacptCheckresultSubmitRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiQualityTestCloudacptCheckresultSubmitRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiQualityTestCloudacptItemQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiQualityTestCloudacptItemQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiRetailShopitemBatchqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiRetailShopitemBatchqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiRetailShopitemModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiRetailShopitemModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiRetailShopitemUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiRetailShopitemUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeItemBuyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeItemBuyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeItemorderBuyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeItemorderBuyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeItemorderQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeItemorderQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeItemorderRefundRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeItemorderRefundRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeKbdeliveryDeliveryApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeKbdeliveryDeliveryApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeKbdeliveryDeliveryCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeKbdeliveryDeliveryCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderConsultRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderConsultRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderEnterpriseQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderEnterpriseQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderEnterpriseSettleRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderEnterpriseSettleRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderPrecreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderPrecreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeOrderQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeDelayRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeDelayRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeSendRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeSendRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeUseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/KoubeiTradeTicketTicketcodeUseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MonitorHeartbeatSynRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MonitorHeartbeatSynRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankCreditLoanapplyDataUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankCreditLoanapplyDataUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoAccountQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoAccountQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoCapitalPurchaseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoCapitalPurchaseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoCapitalRansomRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoCapitalRansomRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoPriceQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoPriceQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoTransHistoryQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankFinanceYulibaoTransHistoryQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankPaymentTradeFinancingOrderCloseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankPaymentTradeFinancingOrderCloseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankPaymentTradeFinancingOrderCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankPaymentTradeFinancingOrderCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankPaymentTradeFinancingOrderRefundRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankPaymentTradeFinancingOrderRefundRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/MybankPaymentTradeOrderCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/MybankPaymentTradeOrderCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAlixiaohaoQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAlixiaohaoQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAntifraudVerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAntifraudVerifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAntifraudintegrationQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAntifraudintegrationQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAntifraudlistQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAntifraudlistQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAntifraudscoreQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskAntifraudscoreQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskRainscoreQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/SsdataDataserviceRiskRainscoreQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaAuthInfoAuthqueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaAuthInfoAuthqueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditAntifraudRiskListRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditAntifraudRiskListRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditAntifraudScoreGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditAntifraudScoreGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditAntifraudVerifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditAntifraudVerifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpInfoGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpInfoGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpLawsuitDetailGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpLawsuitDetailGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpLawsuitRecordGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpLawsuitRecordGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneAgreementCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneAgreementCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneAgreementUseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneAgreementUseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneFulfillmentSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneFulfillmentSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneFulfillmentlistSyncRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneFulfillmentlistSyncRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneRatingApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneRatingApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneRatingInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneRatingInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneRatingQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpSceneRatingQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditEpScoreGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditEpScoreGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditPeLawsuitDetailQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditPeLawsuitDetailQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditPeLawsuitRecordGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditPeLawsuitRecordGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditScoreBriefGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditScoreBriefGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditScoreGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditScoreGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditWatchlistBriefGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditWatchlistBriefGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCreditWatchlistiiGetRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCreditWatchlistiiGetRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCustomerAuthMutualviewApplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCustomerAuthMutualviewApplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCustomerCertificationCertifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCustomerCertificationCertifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCustomerCertificationInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCustomerCertificationInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCustomerCertificationMaterialCertifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCustomerCertificationMaterialCertifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCustomerCertificationQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCustomerCertificationQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCustomerContractInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCustomerContractInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCustomerEpCertificationCertifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCustomerEpCertificationCertifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCustomerEpCertificationInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCustomerEpCertificationInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaCustomerEpCertificationQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaCustomerEpCertificationQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaDataBatchFeedbackRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaDataBatchFeedbackRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaDataFeedbackurlQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaDataFeedbackurlQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantBorrowEntityUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantBorrowEntityUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantCloseloopDataUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantCloseloopDataUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantDataUploadInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantDataUploadInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentCancelRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentCancelRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentCompleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentCompleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentModifyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentModifyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantOrderRentQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantSingleDataUploadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantSingleDataUploadRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaMerchantTestPracticeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaMerchantTestPracticeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZhimaOpenAppKeyanLqlCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZhimaOpenAppKeyanLqlCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZolozAuthenticationCustomerFacemanageCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZolozAuthenticationCustomerFacemanageCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZolozAuthenticationCustomerFacemanageDeleteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZolozAuthenticationCustomerFacemanageDeleteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZolozAuthenticationCustomerFtokenQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZolozAuthenticationCustomerFtokenQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZolozAuthenticationCustomerSmilepayInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZolozAuthenticationCustomerSmilepayInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZolozAuthenticationSmilepayInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZolozAuthenticationSmilepayInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZolozIdentificationCustomerCertifyzhubQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZolozIdentificationCustomerCertifyzhubQueryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZolozIdentificationUserWebInitializeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZolozIdentificationUserWebInitializeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/request/ZolozIdentificationUserWebQueryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/request/ZolozIdentificationUserWebQueryRequest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,23 +837,31 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+        <entry file="file://$PROJECT_DIR$/aop/request/AlipayAccountExrateRatequeryRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="418">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;?php</find>
+    </findStrings>
+    <dirStrings>
+      <dir>F:\PHP\SDK\demo\alipay\aop\request</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="1.0" />
       </map>
     </option>
   </component>
@@ -40,6 +869,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/aop/request/AlipayAccountExrateRatequeryRequest.php" />
       </list>
     </option>
   </component>
@@ -64,7 +894,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,10 +906,17 @@
               <item name="alipay" type="462c0819:PsiDirectoryNode" />
               <item name="aop" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="alipay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,19 +992,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2588000" />
+    <option name="totallyTimeSpent" value="2788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="3847" height="1080" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32980973" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -176,14 +1007,59 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49986798" visible="true" weight="0.32980973" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32980973" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500132" side_tool="true" weight="0.32980973" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化 V1.0&#10;支付宝 V3.3.3" />
@@ -194,6 +1070,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/request/AlipayAccountExrateAdviceAcceptRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/AopClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/request/AftFinsecureRiskplusSecurityPolicyQueryRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/request/AlipayAccountExrateRatequeryRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>

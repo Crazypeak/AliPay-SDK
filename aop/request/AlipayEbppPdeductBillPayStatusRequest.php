@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: alipay.ebpp.pdeduct.bill.pay.status request
  *

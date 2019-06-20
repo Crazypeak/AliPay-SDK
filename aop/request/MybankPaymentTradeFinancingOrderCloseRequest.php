@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: mybank.payment.trade.financing.order.close request
  *

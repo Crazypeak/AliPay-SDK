@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: alipay.boss.fnc.xwbtest.ret.modify request
  *

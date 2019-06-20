@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: koubei.marketing.campaign.intelligent.template.consult request
  *

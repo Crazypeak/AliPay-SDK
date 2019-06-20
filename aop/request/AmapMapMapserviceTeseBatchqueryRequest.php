@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: amap.map.mapservice.tese.batchquery request
  *

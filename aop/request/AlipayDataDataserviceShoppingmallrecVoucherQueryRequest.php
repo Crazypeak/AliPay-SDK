@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: alipay.data.dataservice.shoppingmallrec.voucher.query request
  *

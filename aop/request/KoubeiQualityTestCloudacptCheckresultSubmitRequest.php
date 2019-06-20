@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: koubei.quality.test.cloudacpt.checkresult.submit request
  *

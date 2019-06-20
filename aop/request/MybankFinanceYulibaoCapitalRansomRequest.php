@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: mybank.finance.yulibao.capital.ransom request
  *

@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: koubei.advert.delivery.discount.authweb.batchquery request
  *

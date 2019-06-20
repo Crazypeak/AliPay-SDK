@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: alipay.eco.mycar.parking.cardbarcode.create request
  *

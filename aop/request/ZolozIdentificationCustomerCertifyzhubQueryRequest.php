@@ -1,4 +1,5 @@
 <?php
+namespace AliPay\request;
 /**
  * ALIPAY API: zoloz.identification.customer.certifyzhub.query request
  *
