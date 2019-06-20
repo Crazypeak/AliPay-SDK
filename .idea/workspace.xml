@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83d83a59-58dc-4668-9aa2-50a66900725e" name="Default Changelist" comment="" />
+    <list default="true" id="83d83a59-58dc-4668-9aa2-50a66900725e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560939989191</updated>
-      <workItem from="1560939990394" duration="2511000" />
+      <workItem from="1560939990394" duration="2588000" />
     </task>
     <task id="LOCAL-00001" summary="初始化 V1.0&#10;支付宝 V3.3.3">
       <created>1560940113820</created>
@@ -143,11 +145,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560941955695</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="初始化 V1.0&#10;支付宝 V3.3.3">
+      <created>1560997497368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560997497368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2511000" />
+    <option name="totallyTimeSpent" value="2588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="3847" height="1080" extended-state="0" />
