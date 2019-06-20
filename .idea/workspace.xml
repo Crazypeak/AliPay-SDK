@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83d83a59-58dc-4668-9aa2-50a66900725e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/AopClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/aop/AopClient.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +19,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aop/AopClient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="263" column="20" selection-start-line="263" selection-start-column="20" selection-end-line="263" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aop/request/AlipayAccountExrateRatequeryRequest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -26,14 +39,53 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aop/EncryptParseItem.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aop/EncryptResponseData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aop/SignData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aop/AopEncrypt.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&lt;?php</find>
+      <find>Exception</find>
+      <find>LtLogger</find>
     </findStrings>
+    <replaceStrings>
+      <replace>\Exception</replace>
+      <replace>\LtLogger</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>F:\PHP\SDK\demo\alipay\aop\request</dir>
+      <dir>F:\PHP\SDK\demo\alipay\aop</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -49,6 +101,11 @@
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/aop/request/AlipayAccountExrateRatequeryRequest.php" />
+        <option value="$PROJECT_DIR$/aop/request/AlipayMarketingToolFengdieSitesQueryRequest.php" />
+        <option value="$PROJECT_DIR$/aop/EncryptParseItem.php" />
+        <option value="$PROJECT_DIR$/aop/EncryptResponseData.php" />
+        <option value="$PROJECT_DIR$/aop/SignData.php" />
+        <option value="$PROJECT_DIR$/aop/AopClient.php" />
       </list>
     </option>
   </component>
@@ -168,11 +225,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561014366042</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="初始化 V1.001&#10;统一接口目录命名空间&#10;删除未知作用文件">
+      <created>1561015195460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561015195460</updated>
+    </task>
+    <task id="LOCAL-00008" summary="初始化 V1.003&#10;日志函数魔改&#10;修复因命名空间导致的根类调用失败">
+      <created>1561017948036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561017948036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3626000" />
+    <option name="totallyTimeSpent" value="6610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="3847" height="1080" extended-state="0" />
@@ -245,7 +316,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化 V1.0&#10;支付宝 V3.3.3" />
     <MESSAGE value="初始化 V1.001&#10;统一接口目录命名空间&#10;删除测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化 V1.001&#10;统一接口目录命名空间&#10;删除测试用例" />
+    <MESSAGE value="初始化 V1.001&#10;统一接口目录命名空间&#10;删除未知作用文件" />
+    <MESSAGE value="初始化 V1.003&#10;日志函数魔改&#10;修复因命名空间导致的根类调用失败" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化 V1.003&#10;日志函数魔改&#10;修复因命名空间导致的根类调用失败" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -259,13 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aop/AopClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -290,6 +356,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/AopEncrypt.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/EncryptParseItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/EncryptResponseData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/AlipayMobilePublicMultiMediaExecute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/AlipayMobilePublicMultiMediaClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
+          <folding>
+            <element signature="e#7#149#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/SignData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/AopClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="263" column="20" selection-start-line="263" selection-start-column="20" selection-end-line="263" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

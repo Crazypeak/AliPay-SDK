@@ -1,9 +1,9 @@
 <?php
+
 namespace AliPay;
 require_once 'AopEncrypt.php';
 
-class AopClient
-{
+class AopClient {
     //应用ID
     public $appId;
 
@@ -59,18 +59,15 @@ class AopClient
 
     protected $alipaySdkVersion = "alipay-sdk-php-20180705";
 
-    public function generateSign($params, $signType = "RSA")
-    {
+    public function generateSign($params, $signType = "RSA") {
         return $this->sign($this->getSignContent($params), $signType);
     }
 
-    public function rsaSign($params, $signType = "RSA")
-    {
+    public function rsaSign($params, $signType = "RSA") {
         return $this->sign($this->getSignContent($params), $signType);
     }
 
-    public function getSignContent($params)
-    {
+    public function getSignContent($params) {
         ksort($params);
 
         $stringToBeSigned = "";
@@ -96,8 +93,7 @@ class AopClient
 
 
     //此方法对value做urlencode
-    public function getSignContentUrlencode($params)
-    {
+    public function getSignContentUrlencode($params) {
         ksort($params);
 
         $stringToBeSigned = "";
@@ -121,13 +117,10 @@ class AopClient
         return $stringToBeSigned;
     }
 
-    protected function sign($data, $signType = "RSA")
-    {
+    protected function sign($data, $signType = "RSA") {
         if ($this->checkEmpty($this->rsaPrivateKeyFilePath)) {
             $priKey = $this->rsaPrivateKey;
-            $res    = "-----BEGIN RSA PRIVATE KEY-----\n" .
-                wordwrap($priKey, 64, "\n", TRUE) .
-                "\n-----END RSA PRIVATE KEY-----";
+            $res    = "-----BEGIN RSA PRIVATE KEY-----\n" . wordwrap($priKey, 64, "\n", TRUE) . "\n-----END RSA PRIVATE KEY-----";
         } else {
             $priKey = file_get_contents($this->rsaPrivateKeyFilePath);
             $res    = openssl_get_privatekey($priKey);
@@ -157,14 +150,11 @@ class AopClient
      * @return string
      * @author mengyu.wh
      */
-    public function alonersaSign($data, $privatekey, $signType = "RSA", $keyfromfile = FALSE)
-    {
+    public function alonersaSign($data, $privatekey, $signType = "RSA", $keyfromfile = FALSE) {
 
         if (!$keyfromfile) {
             $priKey = $privatekey;
-            $res    = "-----BEGIN RSA PRIVATE KEY-----\n" .
-                wordwrap($priKey, 64, "\n", TRUE) .
-                "\n-----END RSA PRIVATE KEY-----";
+            $res    = "-----BEGIN RSA PRIVATE KEY-----\n" . wordwrap($priKey, 64, "\n", TRUE) . "\n-----END RSA PRIVATE KEY-----";
         } else {
             $priKey = file_get_contents($privatekey);
             $res    = openssl_get_privatekey($priKey);
@@ -186,8 +176,7 @@ class AopClient
     }
 
 
-    protected function curl($url, $postFields = NULL)
-    {
+    protected function curl($url, $postFields = NULL) {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_FAILONERROR, FALSE);
@@ -249,18 +238,16 @@ class AopClient
         return $reponse;
     }
 
-    protected function getMillisecond()
-    {
+    protected function getMillisecond() {
         list($s1, $s2) = explode(' ', microtime());
         return (float)sprintf('%.0f', (floatval($s1) + floatval($s2)) * 1000);
     }
 
 
-    protected function logCommunicationError($apiName, $requestUrl, $errorCode, $responseTxt)
-    {
-        $log_content = file_get_contents('aliPay.log') ?: '';
-        $localIp                   = isset ($_SERVER["SERVER_ADDR"]) ? $_SERVER["SERVER_ADDR"] : "CLI";
-        $logData                   = [
+    protected function logCommunicationError($apiName, $requestUrl, $errorCode, $responseTxt) {
+        $log_content = @file_get_contents('aliPay.log') ?: '';
+        $localIp     = isset ($_SERVER["SERVER_ADDR"]) ? $_SERVER["SERVER_ADDR"] : "CLI";
+        $logData     = [
             date("Y-m-d H:i:s"),
             $apiName,
             $this->appId,
@@ -269,11 +256,11 @@ class AopClient
             $this->alipaySdkVersion,
             $requestUrl,
             $errorCode,
-            str_replace("\n", "", $responseTxt)
+            str_replace("\n", "", $responseTxt),
         ];
-        $log_content .= json_encode($logData).'/n';
+        $log_content .= json_encode($logData) . '/n';
 
-        file_put_contents('aliPay.log',$log_content);
+        file_put_contents('aliPay.log', $log_content);
     }
 
     /**
@@ -282,8 +269,7 @@ class AopClient
      * @return string
      * @author guofa.tgf
      */
-    public function sdkExecute($request)
-    {
+    public function sdkExecute($request) {
 
         $this->setupCharsets($request);
 
@@ -322,8 +308,7 @@ class AopClient
         @return：构建好的、签名后的最终跳转URL（GET）或String形式的form（POST）
         auther:笙默
     */
-    public function pageExecute($request, $httpmethod = "POST")
-    {
+    public function pageExecute($request, $httpmethod = "POST") {
 
         $this->setupCharsets($request);
 
@@ -415,8 +400,7 @@ class AopClient
      * @param $para_temp 请求参数数组
      * @return 提交表单HTML文本
      */
-    protected function buildRequestForm($para_temp)
-    {
+    protected function buildRequestForm($para_temp) {
 
         $sHtml = "<form id='alipaysubmit' name='alipaysubmit' action='" . $this->gatewayUrl . "?charset=" . trim($this->postCharset) . "' method='POST'>";
         while (list ($key, $val) = each($para_temp)) {
@@ -437,8 +421,7 @@ class AopClient
     }
 
 
-    public function execute($request, $authToken = NULL, $appInfoAuthtoken = NULL)
-    {
+    public function execute($request, $authToken = NULL, $appInfoAuthtoken = NULL) {
 
         $this->setupCharsets($request);
 
@@ -595,8 +578,7 @@ class AopClient
      * @param $targetCharset
      * @return string
      */
-    function characet($data, $targetCharset)
-    {
+    function characet($data, $targetCharset) {
 
         if (!empty($data)) {
             $fileType = $this->fileCharset;
@@ -610,8 +592,7 @@ class AopClient
         return $data;
     }
 
-    public function exec($paramsArray)
-    {
+    public function exec($paramsArray) {
         if (!isset ($paramsArray["method"])) {
             trigger_error("No api name passed");
         }
@@ -642,8 +623,7 @@ class AopClient
      *  if not set ,return true;
      *    if is null , return true;
      **/
-    protected function checkEmpty($value)
-    {
+    protected function checkEmpty($value) {
         if (!isset($value))
             return TRUE;
         if ($value === NULL)
@@ -659,30 +639,25 @@ class AopClient
      *  在使用本方法前，必须初始化AopClient且传入公钥参数。
      *  公钥是否是读取字符串还是读取文件，是根据初始化传入的值判断的。
      **/
-    public function rsaCheckV1($params, $rsaPublicKeyFilePath, $signType = 'RSA')
-    {
+    public function rsaCheckV1($params, $rsaPublicKeyFilePath, $signType = 'RSA') {
         $sign                = $params['sign'];
         $params['sign_type'] = NULL;
         $params['sign']      = NULL;
         return $this->verify($this->getSignContent($params), $sign, $rsaPublicKeyFilePath, $signType);
     }
 
-    public function rsaCheckV2($params, $rsaPublicKeyFilePath, $signType = 'RSA')
-    {
+    public function rsaCheckV2($params, $rsaPublicKeyFilePath, $signType = 'RSA') {
         $sign           = $params['sign'];
         $params['sign'] = NULL;
         return $this->verify($this->getSignContent($params), $sign, $rsaPublicKeyFilePath, $signType);
     }
 
-    function verify($data, $sign, $rsaPublicKeyFilePath, $signType = 'RSA')
-    {
+    function verify($data, $sign, $rsaPublicKeyFilePath, $signType = 'RSA') {
 
         if ($this->checkEmpty($this->alipayPublicKey)) {
 
             $pubKey = $this->alipayrsaPublicKey;
-            $res    = "-----BEGIN PUBLIC KEY-----\n" .
-                wordwrap($pubKey, 64, "\n", TRUE) .
-                "\n-----END PUBLIC KEY-----";
+            $res    = "-----BEGIN PUBLIC KEY-----\n" . wordwrap($pubKey, 64, "\n", TRUE) . "\n-----END PUBLIC KEY-----";
         } else {
             //读取公钥文件
             $pubKey = file_get_contents($rsaPublicKeyFilePath);
@@ -713,8 +688,7 @@ class AopClient
      *  在使用本方法前，必须初始化AopClient且传入公私钥参数。
      *  公钥是否是读取字符串还是读取文件，是根据初始化传入的值判断的。
      **/
-    public function checkSignAndDecrypt($params, $rsaPublicKeyPem, $rsaPrivateKeyPem, $isCheckSign, $isDecrypt, $signType = 'RSA')
-    {
+    public function checkSignAndDecrypt($params, $rsaPublicKeyPem, $rsaPrivateKeyPem, $isCheckSign, $isDecrypt, $signType = 'RSA') {
         $charset    = $params['charset'];
         $bizContent = $params['biz_content'];
         if ($isCheckSign) {
@@ -734,8 +708,7 @@ class AopClient
      *  在使用本方法前，必须初始化AopClient且传入公私钥参数。
      *  公钥是否是读取字符串还是读取文件，是根据初始化传入的值判断的。
      **/
-    public function encryptAndSign($bizContent, $rsaPublicKeyPem, $rsaPrivateKeyPem, $charset, $isEncrypt, $isSign, $signType = 'RSA')
-    {
+    public function encryptAndSign($bizContent, $rsaPublicKeyPem, $rsaPrivateKeyPem, $charset, $isEncrypt, $isSign, $signType = 'RSA') {
         // 加密，并签名
         if ($isEncrypt && $isSign) {
             $encrypted = $this->rsaEncrypt($bizContent, $rsaPublicKeyPem, $charset);
@@ -764,14 +737,11 @@ class AopClient
      *  在使用本方法前，必须初始化AopClient且传入公私钥参数。
      *  公钥是否是读取字符串还是读取文件，是根据初始化传入的值判断的。
      **/
-    public function rsaEncrypt($data, $rsaPublicKeyPem, $charset)
-    {
+    public function rsaEncrypt($data, $rsaPublicKeyPem, $charset) {
         if ($this->checkEmpty($this->alipayPublicKey)) {
             //读取字符串
             $pubKey = $this->alipayrsaPublicKey;
-            $res    = "-----BEGIN PUBLIC KEY-----\n" .
-                wordwrap($pubKey, 64, "\n", TRUE) .
-                "\n-----END PUBLIC KEY-----";
+            $res    = "-----BEGIN PUBLIC KEY-----\n" . wordwrap($pubKey, 64, "\n", TRUE) . "\n-----END PUBLIC KEY-----";
         } else {
             //读取公钥文件
             $pubKey = file_get_contents($rsaPublicKeyFilePath);
@@ -798,15 +768,12 @@ class AopClient
      *  在使用本方法前，必须初始化AopClient且传入公私钥参数。
      *  公钥是否是读取字符串还是读取文件，是根据初始化传入的值判断的。
      **/
-    public function rsaDecrypt($data, $rsaPrivateKeyPem, $charset)
-    {
+    public function rsaDecrypt($data, $rsaPrivateKeyPem, $charset) {
 
         if ($this->checkEmpty($this->rsaPrivateKeyFilePath)) {
             //读字符串
             $priKey = $this->rsaPrivateKey;
-            $res    = "-----BEGIN RSA PRIVATE KEY-----\n" .
-                wordwrap($priKey, 64, "\n", TRUE) .
-                "\n-----END RSA PRIVATE KEY-----";
+            $res    = "-----BEGIN RSA PRIVATE KEY-----\n" . wordwrap($priKey, 64, "\n", TRUE) . "\n-----END RSA PRIVATE KEY-----";
         } else {
             $priKey = file_get_contents($this->rsaPrivateKeyFilePath);
             $res    = openssl_get_privatekey($priKey);
@@ -825,8 +792,7 @@ class AopClient
         return $strnull;
     }
 
-    function splitCN($cont, $n = 0, $subnum, $charset)
-    {
+    function splitCN($cont, $n = 0, $subnum, $charset) {
         //$len = strlen($cont) / 3;
         $arrr = [];
         for ($i = $n; $i < strlen($cont); $i += $subnum) {
@@ -839,8 +805,7 @@ class AopClient
         return $arrr;
     }
 
-    function subCNchar($str, $start = 0, $length, $charset = "gbk")
-    {
+    function subCNchar($str, $start = 0, $length, $charset = "gbk") {
         if (strlen($str) <= $length) {
             return $str;
         }
@@ -853,8 +818,7 @@ class AopClient
         return $slice;
     }
 
-    function parserResponseSubCode($request, $responseContent, $respObject, $format)
-    {
+    function parserResponseSubCode($request, $responseContent, $respObject, $format) {
 
         if ("json" == $format) {
 
@@ -895,8 +859,7 @@ class AopClient
 
     }
 
-    function parserJSONSignData($request, $responseContent, $responseJSON)
-    {
+    function parserJSONSignData($request, $responseContent, $responseJSON) {
 
         $signData = new SignData();
 
@@ -908,8 +871,7 @@ class AopClient
 
     }
 
-    function parserJSONSignSource($request, $responseContent)
-    {
+    function parserJSONSignSource($request, $responseContent) {
 
         $apiName      = $request->getApiMethodName();
         $rootNodeName = str_replace(".", "_", $apiName) . $this->RESPONSE_SUFFIX;
@@ -932,8 +894,7 @@ class AopClient
 
     }
 
-    function parserJSONSource($responseContent, $nodeName, $nodeIndex)
-    {
+    function parserJSONSource($responseContent, $nodeName, $nodeIndex) {
         $signDataStartIndex = $nodeIndex + strlen($nodeName) + 2;
         $signIndex          = strrpos($responseContent, "\"" . $this->SIGN_NODE_NAME . "\"");
         // 签名前-逗号
@@ -948,14 +909,12 @@ class AopClient
 
     }
 
-    function parserJSONSign($responseJSon)
-    {
+    function parserJSONSign($responseJSon) {
 
         return $responseJSon->sign;
     }
 
-    function parserXMLSignData($request, $responseContent)
-    {
+    function parserXMLSignData($request, $responseContent) {
 
 
         $signData = new SignData();
@@ -969,8 +928,7 @@ class AopClient
 
     }
 
-    function parserXMLSignSource($request, $responseContent)
-    {
+    function parserXMLSignSource($request, $responseContent) {
 
 
         $apiName      = $request->getApiMethodName();
@@ -997,8 +955,7 @@ class AopClient
 
     }
 
-    function parserXMLSource($responseContent, $nodeName, $nodeIndex)
-    {
+    function parserXMLSource($responseContent, $nodeName, $nodeIndex) {
         $signDataStartIndex = $nodeIndex + strlen($nodeName) + 1;
         $signIndex          = strrpos($responseContent, "<" . $this->SIGN_NODE_NAME . ">");
         // 签名前-逗号
@@ -1015,8 +972,7 @@ class AopClient
 
     }
 
-    function parserXMLSign($responseContent)
-    {
+    function parserXMLSign($responseContent) {
         $signNodeName    = "<" . $this->SIGN_NODE_NAME . ">";
         $signEndNodeName = "</" . $this->SIGN_NODE_NAME . ">";
 
@@ -1049,8 +1005,7 @@ class AopClient
      * @param $respObject
      * @throws \Exception
      */
-    public function checkResponseSign($request, $signData, $resp, $respObject)
-    {
+    public function checkResponseSign($request, $signData, $resp, $respObject) {
 
         if (!$this->checkEmpty($this->alipayPublicKey) || !$this->checkEmpty($this->alipayrsaPublicKey)) {
 
@@ -1094,8 +1049,7 @@ class AopClient
         }
     }
 
-    private function setupCharsets($request)
-    {
+    private function setupCharsets($request) {
         if ($this->checkEmpty($this->postCharset)) {
             $this->postCharset = 'UTF-8';
         }
@@ -1105,8 +1059,7 @@ class AopClient
 
     // 获取加密内容
 
-    private function encryptJSONSignSource($request, $responseContent)
-    {
+    private function encryptJSONSignSource($request, $responseContent) {
 
         $parsetItem = $this->parserEncryptJSONSignSource($request, $responseContent);
 
@@ -1119,8 +1072,7 @@ class AopClient
     }
 
 
-    private function parserEncryptJSONSignSource($request, $responseContent)
-    {
+    private function parserEncryptJSONSignSource($request, $responseContent) {
 
         $apiName      = $request->getApiMethodName();
         $rootNodeName = str_replace(".", "_", $apiName) . $this->RESPONSE_SUFFIX;
@@ -1144,8 +1096,7 @@ class AopClient
     }
 
 
-    private function parserEncryptJSONItem($responseContent, $nodeName, $nodeIndex)
-    {
+    private function parserEncryptJSONItem($responseContent, $nodeName, $nodeIndex) {
         $signDataStartIndex = $nodeIndex + strlen($nodeName) + 2;
         $signIndex          = strpos($responseContent, "\"" . $this->SIGN_NODE_NAME . "\"");
         // 签名前-逗号
@@ -1173,8 +1124,7 @@ class AopClient
 
     // 获取加密内容
 
-    private function encryptXMLSignSource($request, $responseContent)
-    {
+    private function encryptXMLSignSource($request, $responseContent) {
 
         $parsetItem = $this->parserEncryptXMLSignSource($request, $responseContent);
 
@@ -1186,8 +1136,7 @@ class AopClient
 
     }
 
-    private function parserEncryptXMLSignSource($request, $responseContent)
-    {
+    private function parserEncryptXMLSignSource($request, $responseContent) {
 
 
         $apiName      = $request->getApiMethodName();
@@ -1214,8 +1163,7 @@ class AopClient
 
     }
 
-    private function parserEncryptXMLItem($responseContent, $nodeName, $nodeIndex)
-    {
+    private function parserEncryptXMLItem($responseContent, $nodeName, $nodeIndex) {
 
         $signDataStartIndex = $nodeIndex + strlen($nodeName) + 1;
 
@@ -1246,8 +1194,7 @@ class AopClient
     }
 
 
-    function echoDebug($content)
-    {
+    function echoDebug($content) {
 
         if ($this->debugInfo) {
             echo "<br/>" . $content;
