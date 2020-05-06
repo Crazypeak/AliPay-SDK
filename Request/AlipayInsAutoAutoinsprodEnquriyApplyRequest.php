@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.ins.auto.autoinsprod.enquriy.apply request
  *
  * @author auto create
- * @since 1.0, 2019-05-22 12:25:01
+ * @since 1.0, 2019-12-09 14:44:54
  */
 class AlipayInsAutoAutoinsprodEnquriyApplyRequest
 {

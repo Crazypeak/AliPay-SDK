@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.fund.auth.operation.cancel request
  *
  * @author auto create
- * @since 1.0, 2019-03-07 21:00:39
+ * @since 1.0, 2019-12-30 12:57:03
  */
 class AlipayFundAuthOperationCancelRequest
 {

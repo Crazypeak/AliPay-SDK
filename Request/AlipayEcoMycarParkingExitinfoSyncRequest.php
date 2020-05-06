@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.eco.mycar.parking.exitinfo.sync request
  *
  * @author auto create
- * @since 1.0, 2019-03-28 10:39:45
+ * @since 1.0, 2020-03-16 10:31:19
  */
 class AlipayEcoMycarParkingExitinfoSyncRequest
 {

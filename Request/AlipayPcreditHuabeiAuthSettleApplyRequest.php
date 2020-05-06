@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.pcredit.huabei.auth.settle.apply request
  *
  * @author auto create
- * @since 1.0, 2019-05-09 21:31:00
+ * @since 1.0, 2020-04-13 15:30:37
  */
 class AlipayPcreditHuabeiAuthSettleApplyRequest
 {

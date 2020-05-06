@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.mobile.shake.user.query request
  *
  * @author auto create
- * @since 1.0, 2019-03-08 15:29:11
+ * @since 1.0, 2020-03-25 16:32:27
  */
 class AlipayMobileShakeUserQueryRequest
 {

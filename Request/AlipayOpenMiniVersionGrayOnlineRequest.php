@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.mini.version.gray.online request
  *
  * @author auto create
- * @since 1.0, 2019-04-11 19:54:43
+ * @since 1.0, 2020-03-17 17:10:08
  */
 class AlipayOpenMiniVersionGrayOnlineRequest
 {

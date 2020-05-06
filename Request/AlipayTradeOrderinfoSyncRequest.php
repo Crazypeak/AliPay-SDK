@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.trade.orderinfo.sync request
  *
  * @author auto create
- * @since 1.0, 2019-02-18 22:00:00
+ * @since 1.0, 2019-06-18 12:05:01
  */
 class AlipayTradeOrderinfoSyncRequest
 {

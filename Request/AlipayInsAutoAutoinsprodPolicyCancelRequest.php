@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.ins.auto.autoinsprod.policy.cancel request
  *
  * @author auto create
- * @since 1.0, 2019-03-26 15:32:46
+ * @since 1.0, 2019-12-05 14:48:09
  */
 class AlipayInsAutoAutoinsprodPolicyCancelRequest
 {

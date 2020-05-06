@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.mini.data.visit.query request
  *
  * @author auto create
- * @since 1.0, 2019-04-28 11:00:54
+ * @since 1.0, 2019-09-20 18:19:35
  */
 class AlipayOpenMiniDataVisitQueryRequest
 {

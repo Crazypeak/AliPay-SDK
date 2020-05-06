@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.agent.offlinepayment.sign request
  *
  * @author auto create
- * @since 1.0, 2019-04-26 17:10:00
+ * @since 1.0, 2019-11-01 16:41:27
  */
 class AlipayOpenAgentOfflinepaymentSignRequest
 {
@@ -14,7 +14,7 @@ class AlipayOpenAgentOfflinepaymentSignRequest
 	private $batchNo;
 	
 	/** 
-	 * 营业执照号码
+	 * 营业执照号码。若填写，请与以下营业执照图片、期限、一起提供。
 	 **/
 	private $businessLicenseNo;
 	
@@ -45,7 +45,7 @@ class AlipayOpenAgentOfflinepaymentSignRequest
 	private $rate;
 	
 	/** 
-	 * 店铺门头照图片，最小5KB，图片格式必须为：png、bmp、gif、jpg、jpeg
+	 * 店铺门头照图片，需要包括招牌信息。最小5KB，图片格式必须为：png、bmp、gif、jpg、jpeg
 	 **/
 	private $shopSignBoardPic;
 	

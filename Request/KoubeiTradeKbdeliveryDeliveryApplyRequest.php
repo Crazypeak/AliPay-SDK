@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: koubei.trade.kbdelivery.delivery.apply request
  *
  * @author auto create
- * @since 1.0, 2019-01-25 20:35:00
+ * @since 1.0, 2019-09-03 11:32:54
  */
 class KoubeiTradeKbdeliveryDeliveryApplyRequest
 {

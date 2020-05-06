@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.servicemarket.order.notify request
  *
  * @author auto create
- * @since 1.0, 2019-01-07 20:51:15
+ * @since 1.0, 2020-03-02 17:00:06
  */
 class AlipayOpenServicemarketOrderNotifyRequest
 {

@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.agent.mini.create request
  *
  * @author auto create
- * @since 1.0, 2019-04-02 15:11:20
+ * @since 1.0, 2020-04-07 16:51:16
  */
 class AlipayOpenAgentMiniCreateRequest
 {

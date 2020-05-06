@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.eco.mycar.promo.ticket.sync request
  *
  * @author auto create
- * @since 1.0, 2019-03-28 10:32:33
+ * @since 1.0, 2019-08-29 11:18:32
  */
 class AlipayEcoMycarPromoTicketSyncRequest
 {

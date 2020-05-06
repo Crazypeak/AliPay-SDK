@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.ebpp.invoice.merchantlist.enter.apply request
  *
  * @author auto create
- * @since 1.0, 2019-05-10 14:49:58
+ * @since 1.0, 2020-04-14 20:51:57
  */
 class AlipayEbppInvoiceMerchantlistEnterApplyRequest
 {

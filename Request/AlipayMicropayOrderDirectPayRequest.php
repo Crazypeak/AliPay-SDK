@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.micropay.order.direct.pay request
  *
  * @author auto create
- * @since 1.0, 2019-03-08 15:29:11
+ * @since 1.0, 2019-07-24 14:46:22
  */
 class AlipayMicropayOrderDirectPayRequest
 {

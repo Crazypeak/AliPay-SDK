@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.offline.market.shop.public.unbind request
  *
  * @author auto create
- * @since 1.0, 2019-03-08 15:29:11
+ * @since 1.0, 2020-04-07 16:47:00
  */
 class AlipayOfflineMarketShopPublicUnbindRequest
 {

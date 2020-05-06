@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.pcredit.huabei.auth.accumulation.query request
  *
  * @author auto create
- * @since 1.0, 2019-05-09 10:33:16
+ * @since 1.0, 2020-04-13 16:02:28
  */
 class AlipayPcreditHuabeiAuthAccumulationQueryRequest
 {

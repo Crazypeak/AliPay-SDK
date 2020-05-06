@@ -4,10 +4,14 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.mini.category.query request
  *
  * @author auto create
- * @since 1.0, 2019-05-27 11:07:30
+ * @since 1.0, 2020-01-13 10:18:45
  */
 class AlipayOpenMiniCategoryQueryRequest
 {
+	/** 
+	 * 小程序类目树查询
+	 **/
+	private $bizContent;
 
 	private $apiParas = array();
 	private $terminalType;
@@ -19,6 +23,17 @@ class AlipayOpenMiniCategoryQueryRequest
     private $needEncrypt=false;
 
 	
+	public function setBizContent($bizContent)
+	{
+		$this->bizContent = $bizContent;
+		$this->apiParas["biz_content"] = $bizContent;
+	}
+
+	public function getBizContent()
+	{
+		return $this->bizContent;
+	}
+
 	public function getApiMethodName()
 	{
 		return "alipay.open.mini.category.query";

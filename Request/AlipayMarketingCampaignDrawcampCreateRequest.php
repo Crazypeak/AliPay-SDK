@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.marketing.campaign.drawcamp.create request
  *
  * @author auto create
- * @since 1.0, 2019-01-07 20:51:15
+ * @since 1.0, 2019-09-16 12:01:39
  */
 class AlipayMarketingCampaignDrawcampCreateRequest
 {

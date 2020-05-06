@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.data.dataservice.bill.downloadurl.query request
  *
  * @author auto create
- * @since 1.0, 2019-04-24 17:25:01
+ * @since 1.0, 2019-11-15 09:05:48
  */
 class AlipayDataDataserviceBillDownloadurlQueryRequest
 {

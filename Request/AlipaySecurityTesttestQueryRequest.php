@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.security.testtest.query request
  *
  * @author auto create
- * @since 1.0, 2019-02-18 11:00:00
+ * @since 1.0, 2019-09-17 17:05:34
  */
 class AlipaySecurityTesttestQueryRequest
 {

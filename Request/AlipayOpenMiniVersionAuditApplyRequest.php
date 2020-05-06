@@ -4,12 +4,12 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.mini.version.audit.apply request
  *
  * @author auto create
- * @since 1.0, 2019-05-27 09:46:35
+ * @since 1.0, 2020-03-31 14:20:09
  */
 class AlipayOpenMiniVersionAuditApplyRequest
 {
 	/** 
-	 * 小程序类目，格式为 第一个一级类目_第一个二级类目;第二个一级类目_第二个二级类目，详细类目可以参考https://docs.alipay.com/isv/10325，如果不填默认采用当前小程序应用类目。使用默认应用类目后不需要再次上传营业执照号、营业执照名、营业执照截图、营业执照有效期。
+	 * 小程序类目，格式为 第一个一级类目_第一个二级类目;第二个一级类目_第二个二级类目，详细类目可以通过  https://docs.open.alipay.com/api_49/alipay.open.mini.category.query接口查询，如果不填默认采用当前小程序应用类目。使用默认应用类目后不需要再次上传营业执照号、营业执照名、营业执照截图、营业执照有效期。
 	 **/
 	private $appCategoryIds;
 	
@@ -19,17 +19,19 @@ class AlipayOpenMiniVersionAuditApplyRequest
 	private $appDesc;
 	
 	/** 
-	 * 小程序应用英文名称，如果不填默认采用当前小程序应用英文名称，3～30个字符
+	 * 小程序应用英文名称，如果不填默认采用当前小程序应用英文名称，3～30个字符；小程序英文名称只允许英文和数字
 	 **/
 	private $appEnglishName;
 	
 	/** 
-	 * 小程序logo图标，图片格式必须为：png、jpeg、jpg，建议上传像素为180*180，如果不填默认采用当前小程序应用logo图标
+	 * 小程序logo图标，图片格式必须为：png、jpeg、jpg，建议上传像素为180*180，如果不填默认采用当前小程序应用logo图标;logo图片最大256KB
 	 **/
 	private $appLogo;
 	
 	/** 
 	 * 小程序应用名称，如果不填默认采用当前小程序应用名称
+小程序中文名称限制为3-20个字符
+小程序中文名称只能包含中文、数字、英文及下划线
 	 **/
 	private $appName;
 	
@@ -39,62 +41,75 @@ class AlipayOpenMiniVersionAuditApplyRequest
 	private $appSlogan;
 	
 	/** 
-	 * 小程序版本号
+	 * 小程序版本号;请在开发版上执行提交审核操作
 	 **/
 	private $appVersion;
 	
 	/** 
-	 * 第五张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://docs.alipay.com/isv/10325中是否需要营业执照信息，如果不填默认采用当前小程序第五张营业执照照片
+	 * 小程序投放的端参数，例如投放到支付宝钱包是支付宝端。该参数可选，默认支付宝端 com.alipay.alipaywallet:支付宝端
+	 **/
+	private $bundleId;
+	
+	/** 
+	 * 第五张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要营业执照信息，如果不填默认采用当前小程序第五张营业执照照片;最大宽度2160，最大高度3840
 	 **/
 	private $fifthLicensePic;
 	
 	/** 
-	 * 小程序第五张应用截图，不能超过4MB，图片格式只支持jpg，png
+	 * 小程序第五张应用截图，不能超过4MB，图片格式只支持jpg，png;小程序截图数量最小为2，最大为5
+最大宽度2160，最大高度3840
 	 **/
 	private $fifthScreenShot;
 	
 	/** 
-	 * 第一张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://docs.alipay.com/isv/10325中是否需要营业执照信息，如果不填默认采用当前小程序第一张营业执照照片
+	 * 第一张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要营业执照信息，如果不填默认采用当前小程序第一张营业执照照片;最大宽度2160，最大高度3840
 	 **/
 	private $firstLicensePic;
 	
 	/** 
-	 * 实例化的小程序可以不用传第一张应用截图，小程序第一张应用截图，不能超过4MB，图片格式只支持jpg，png
+	 * 实例化的小程序可以不用传第一张应用截图，小程序第一张应用截图，不能超过4MB，图片格式只支持jpg，png;小程序截图数量最小为2，最大为5
+最大宽度2160，最大高度3840
 	 **/
 	private $firstScreenShot;
 	
 	/** 
-	 * 第四张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://docs.alipay.com/isv/10325中是否需要营业执照信息，如果不填默认采用当前小程序第四张营业执照照片
+	 * 第一张特殊资质图片，不能超过4MB，图片格式只支持jpg、png、jepg，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material 中是否需要特殊资质，如果不填默认采用当前小程序第一张特殊资质
+	 **/
+	private $firstSpecialLicensePic;
+	
+	/** 
+	 * 第四张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要营业执照信息，如果不填默认采用当前小程序第四张营业执照照片;最大宽度2160，最大高度3840
 	 **/
 	private $fourthLicensePic;
 	
 	/** 
-	 * 小程序第四张应用截图，不能超过4MB，图片格式只支持jpg，png
+	 * 小程序第四张应用截图，不能超过4MB，图片格式只支持jpg，png;小程序截图数量最小为2，最大为5
+最大宽度2160，最大高度3840
 	 **/
 	private $fourthScreenShot;
 	
 	/** 
-	 * 营业执照名称，部分小程序类目需要提交，参照https://docs.alipay.com/isv/10325中是否需要营业执照信息，如果不填类目采用当前小程序应用营业执照名称。
+	 * 营业执照名称，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要营业执照信息，如果不填类目采用当前小程序应用营业执照名称。
 	 **/
 	private $licenseName;
 	
 	/** 
-	 * 营业执照号，部分小程序类目需要提交，参照https://docs.alipay.com/isv/10325中是否需要营业执照信息，如果不填默认采用当前小程序应用营业执照号。
+	 * 营业执照号，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要营业执照信息，如果不填默认采用当前小程序应用营业执照号。
 	 **/
 	private $licenseNo;
 	
 	/** 
-	 * 营业执照有效期，格式为yyyy-MM-dd，9999-12-31表示长期，部分小程序类目需要提交，参照https://docs.alipay.com/isv/10325中是否需要营业执照信息，如果不填默认采用当前小程序营业执照有效期
+	 * 营业执照有效期，格式为yyyy-MM-dd，9999-12-31表示长期，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要营业执照信息，如果不填默认采用当前小程序营业执照有效期
 	 **/
 	private $licenseValidDate;
 	
 	/** 
-	 * 小程序备注
+	 * 小程序备注;小程序备注最多500字符
 	 **/
 	private $memo;
 	
 	/** 
-	 * 门头照图片，部分小程序类目需要提交，参照https://docs.alipay.com/isv/10325中是否需要营业执照信息，如果不填默认采用当前小程序门头照图片
+	 * 门头照图片，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要营业执照信息，如果不填默认采用当前小程序门头照图片;门头照支持扩展名为jpg, png;门头照最大4MB，宽度2160，高度3840
 	 **/
 	private $outDoorPic;
 	
@@ -104,39 +119,67 @@ class AlipayOpenMiniVersionAuditApplyRequest
 	private $regionType;
 	
 	/** 
-	 * 第二张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://docs.alipay.com/isv/10325中是否需要营业执照信息，如果不填默认采用当前小程序第二张营业执照照片
+	 * 第二张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要营业执照信息，如果不填默认采用当前小程序第二张营业执照照片;最大宽度2160，最大高度3840
 	 **/
 	private $secondLicensePic;
 	
 	/** 
-	 * 实例化的小程序可以不用传第二张应用截图，小程序第二张应用截图，不能超过4MB，图片格式只支持jpg，png
+	 * 实例化的小程序可以不用传第二张应用截图，小程序第二张应用截图，不能超过4MB，图片格式只支持jpg，png;小程序截图数量最小为2，最大为5
+最大宽度2160，最大高度3840
 	 **/
 	private $secondScreenShot;
 	
 	/** 
-	 * 小程序客服邮箱，如果不填默认采用当前小程序的应用客服邮箱
+	 * 第二张特殊资质图片文件，不能超过4MB，图片格式只支持jpg、png、jepg，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material 中是否需要特殊资质，如果不填默认采用当前小程序第二张特殊资质图片
+	 **/
+	private $secondSpecialLicensePic;
+	
+	/** 
+	 * 小程序客服邮箱，如果不填默认采用当前小程序的应用客服邮箱;小程序客服电话和邮箱至少输入一个
 	 **/
 	private $serviceEmail;
 	
 	/** 
-	 * 小程序客服电话，如果不填默认采用当前小程序的应用客服电话
+	 * 小程序客服电话，如果不填默认采用当前小程序的应用客服电话;小程序客服电话和邮箱至少输入一个
+只允许包含数字和-，5-30个字符
 	 **/
 	private $servicePhone;
 	
 	/** 
-	 * 省市区信息，当区域类型为LOCATION时，不能为空，province_code不能为空，当填写city_code时，province_code不能为空，当填写area_code时，province_code和city_code不能为空。只填province_code时，该省全部选择；province_code和city_code都填时，该市全部选择。province_code，city_code和area_code都填时，该县全部选择。具体code可以参考https://docs.alipay.com/isv/10327
+	 * 省市区信息，当区域类型为LOCATION时，不能为空，province_code不能为空，当填写city_code时，province_code不能为空，当填写area_code时，province_code和city_code不能为空。只填province_code时，该省全部选择；province_code和city_code都填时，该市全部选择。province_code，city_code和area_code都填时，该县全部选择。
 	 **/
 	private $serviceRegionInfo;
 	
 	/** 
-	 * 第三张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://docs.alipay.com/isv/10325中是否需要营业执照信息，如果不填默认采用当前小程序第三张营业执照照片
+	 * 测试账号
+	 **/
+	private $testAccout;
+	
+	/** 
+	 * 测试附件，请上传10M以内附件，支持格式zip,rar
+	 **/
+	private $testFileName;
+	
+	/** 
+	 * 测试账号密码
+	 **/
+	private $testPassword;
+	
+	/** 
+	 * 第三张营业执照照片，不能超过4MB，图片格式只支持jpg，png，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要营业执照信息，如果不填默认采用当前小程序第三张营业执照照片;最大宽度2160，最大高度3840
 	 **/
 	private $thirdLicensePic;
 	
 	/** 
-	 * 小程序第三张应用截图，不能超过4MB，图片格式只支持jpg，png
+	 * 小程序第三张应用截图，不能超过4MB，图片格式只支持jpg，png;小程序截图数量最小为2，最大为5
+最大宽度2160，最大高度3840
 	 **/
 	private $thirdScreenShot;
+	
+	/** 
+	 * 第三张特殊资质图片文件，不能超过4MB，图片格式只支持jpg、png、jepg，部分小程序类目需要提交，参照https://opendocs.alipay.com/mini/operation/material中是否需要特殊资质，如果不填默认采用当前小程序第三张特殊资质
+	 **/
+	private $thirdSpecialLicensePic;
 	
 	/** 
 	 * 小程序版本描述，30-500个字符
@@ -230,6 +273,17 @@ class AlipayOpenMiniVersionAuditApplyRequest
 		return $this->appVersion;
 	}
 
+	public function setBundleId($bundleId)
+	{
+		$this->bundleId = $bundleId;
+		$this->apiParas["bundle_id"] = $bundleId;
+	}
+
+	public function getBundleId()
+	{
+		return $this->bundleId;
+	}
+
 	public function setFifthLicensePic($fifthLicensePic)
 	{
 		$this->fifthLicensePic = $fifthLicensePic;
@@ -272,6 +326,17 @@ class AlipayOpenMiniVersionAuditApplyRequest
 	public function getFirstScreenShot()
 	{
 		return $this->firstScreenShot;
+	}
+
+	public function setFirstSpecialLicensePic($firstSpecialLicensePic)
+	{
+		$this->firstSpecialLicensePic = $firstSpecialLicensePic;
+		$this->apiParas["first_special_license_pic"] = $firstSpecialLicensePic;
+	}
+
+	public function getFirstSpecialLicensePic()
+	{
+		return $this->firstSpecialLicensePic;
 	}
 
 	public function setFourthLicensePic($fourthLicensePic)
@@ -384,6 +449,17 @@ class AlipayOpenMiniVersionAuditApplyRequest
 		return $this->secondScreenShot;
 	}
 
+	public function setSecondSpecialLicensePic($secondSpecialLicensePic)
+	{
+		$this->secondSpecialLicensePic = $secondSpecialLicensePic;
+		$this->apiParas["second_special_license_pic"] = $secondSpecialLicensePic;
+	}
+
+	public function getSecondSpecialLicensePic()
+	{
+		return $this->secondSpecialLicensePic;
+	}
+
 	public function setServiceEmail($serviceEmail)
 	{
 		$this->serviceEmail = $serviceEmail;
@@ -417,6 +493,39 @@ class AlipayOpenMiniVersionAuditApplyRequest
 		return $this->serviceRegionInfo;
 	}
 
+	public function setTestAccout($testAccout)
+	{
+		$this->testAccout = $testAccout;
+		$this->apiParas["test_accout"] = $testAccout;
+	}
+
+	public function getTestAccout()
+	{
+		return $this->testAccout;
+	}
+
+	public function setTestFileName($testFileName)
+	{
+		$this->testFileName = $testFileName;
+		$this->apiParas["test_file_name"] = $testFileName;
+	}
+
+	public function getTestFileName()
+	{
+		return $this->testFileName;
+	}
+
+	public function setTestPassword($testPassword)
+	{
+		$this->testPassword = $testPassword;
+		$this->apiParas["test_password"] = $testPassword;
+	}
+
+	public function getTestPassword()
+	{
+		return $this->testPassword;
+	}
+
 	public function setThirdLicensePic($thirdLicensePic)
 	{
 		$this->thirdLicensePic = $thirdLicensePic;
@@ -437,6 +546,17 @@ class AlipayOpenMiniVersionAuditApplyRequest
 	public function getThirdScreenShot()
 	{
 		return $this->thirdScreenShot;
+	}
+
+	public function setThirdSpecialLicensePic($thirdSpecialLicensePic)
+	{
+		$this->thirdSpecialLicensePic = $thirdSpecialLicensePic;
+		$this->apiParas["third_special_license_pic"] = $thirdSpecialLicensePic;
+	}
+
+	public function getThirdSpecialLicensePic()
+	{
+		return $this->thirdSpecialLicensePic;
 	}
 
 	public function setVersionDesc($versionDesc)

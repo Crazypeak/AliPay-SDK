@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.security.risk.customerrisk.send request
  *
  * @author auto create
- * @since 1.0, 2019-01-24 14:05:00
+ * @since 1.0, 2019-10-24 20:58:10
  */
 class AlipaySecurityRiskCustomerriskSendRequest
 {

@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.fund.trans.order.query request
  *
  * @author auto create
- * @since 1.0, 2019-03-12 17:00:00
+ * @since 1.0, 2019-12-17 21:02:19
  */
 class AlipayFundTransOrderQueryRequest
 {

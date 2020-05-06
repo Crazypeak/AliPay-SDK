@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.fund.auth.order.voucher.create request
  *
  * @author auto create
- * @since 1.0, 2019-05-07 14:19:16
+ * @since 1.0, 2020-02-17 16:07:52
  */
 class AlipayFundAuthOrderVoucherCreateRequest
 {

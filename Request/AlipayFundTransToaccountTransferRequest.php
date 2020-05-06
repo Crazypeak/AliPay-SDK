@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.fund.trans.toaccount.transfer request
  *
  * @author auto create
- * @since 1.0, 2019-05-29 16:28:22
+ * @since 1.0, 2020-03-05 13:52:25
  */
 class AlipayFundTransToaccountTransferRequest
 {

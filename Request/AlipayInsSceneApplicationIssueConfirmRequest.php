@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.ins.scene.application.issue.confirm request
  *
  * @author auto create
- * @since 1.0, 2019-01-07 20:51:15
+ * @since 1.0, 2019-08-28 14:20:47
  */
 class AlipayInsSceneApplicationIssueConfirmRequest
 {

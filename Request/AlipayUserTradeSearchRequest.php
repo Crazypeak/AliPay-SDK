@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.user.trade.search request
  *
  * @author auto create
- * @since 1.0, 2019-03-08 15:29:11
+ * @since 1.0, 2019-08-13 17:04:01
  */
 class AlipayUserTradeSearchRequest
 {

@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.mini.version.upload request
  *
  * @author auto create
- * @since 1.0, 2019-04-15 22:59:56
+ * @since 1.0, 2020-01-09 14:37:50
  */
 class AlipayOpenMiniVersionUploadRequest
 {

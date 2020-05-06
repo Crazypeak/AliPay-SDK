@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.marketing.card.benefit.create request
  *
  * @author auto create
- * @since 1.0, 2019-03-14 11:15:00
+ * @since 1.0, 2019-08-08 19:59:10
  */
 class AlipayMarketingCardBenefitCreateRequest
 {

@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.app.qrcode.create request
  *
  * @author auto create
- * @since 1.0, 2019-01-23 15:40:00
+ * @since 1.0, 2019-12-25 13:10:54
  */
 class AlipayOpenAppQrcodeCreateRequest
 {

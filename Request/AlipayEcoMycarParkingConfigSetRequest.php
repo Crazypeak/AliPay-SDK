@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.eco.mycar.parking.config.set request
  *
  * @author auto create
- * @since 1.0, 2019-04-10 20:15:00
+ * @since 1.0, 2019-08-29 11:18:26
  */
 class AlipayEcoMycarParkingConfigSetRequest
 {

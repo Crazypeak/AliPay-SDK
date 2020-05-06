@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: ant.merchant.expand.merchant.storelist.query request
  *
  * @author auto create
- * @since 1.0, 2019-01-07 20:51:15
+ * @since 1.0, 2019-12-11 15:47:35
  */
 class AntMerchantExpandMerchantStorelistQueryRequest
 {

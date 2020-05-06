@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.ins.auto.autoinsprod.common.consult request
  *
  * @author auto create
- * @since 1.0, 2019-05-29 11:25:01
+ * @since 1.0, 2019-12-05 14:47:38
  */
 class AlipayInsAutoAutoinsprodCommonConsultRequest
 {

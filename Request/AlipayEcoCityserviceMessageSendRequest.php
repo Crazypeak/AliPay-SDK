@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.eco.cityservice.message.send request
  *
  * @author auto create
- * @since 1.0, 2019-05-27 17:05:01
+ * @since 1.0, 2019-06-17 19:45:33
  */
 class AlipayEcoCityserviceMessageSendRequest
 {

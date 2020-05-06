@@ -1,5 +1,4 @@
 <?php
-
 namespace AliPay\Request;
 /**
  * ALIPAY API: alipay.marketing.tool.fengdie.sites.query request

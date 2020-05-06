@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.app.yiyiyiwu.query request
  *
  * @author auto create
- * @since 1.0, 2019-01-07 20:51:15
+ * @since 1.0, 2019-08-22 10:17:19
  */
 class AlipayOpenAppYiyiyiwuQueryRequest
 {

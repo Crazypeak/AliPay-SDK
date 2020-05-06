@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.mini.template.usage.query request
  *
  * @author auto create
- * @since 1.0, 2019-04-15 22:59:01
+ * @since 1.0, 2019-10-31 18:03:35
  */
 class AlipayOpenMiniTemplateUsageQueryRequest
 {

@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.open.agent.facetoface.sign request
  *
  * @author auto create
- * @since 1.0, 2019-04-29 15:55:01
+ * @since 1.0, 2020-03-04 15:55:08
  */
 class AlipayOpenAgentFacetofaceSignRequest
 {
@@ -46,6 +46,11 @@ class AlipayOpenAgentFacetofaceSignRequest
 	private $mccCode;
 	
 	/** 
+	 * 服务费率（%），0.38~3之间， 特殊行业除外。当签约且授权标识sign_and_auth=true时，该费率信息必填。
+	 **/
+	private $rate;
+	
+	/** 
 	 * 店铺内景图片，最小5KB，图片格式必须为：png、bmp、gif、jpg、jpeg
 	 **/
 	private $shopScenePic;
@@ -54,6 +59,11 @@ class AlipayOpenAgentFacetofaceSignRequest
 	 * 店铺门头照图片，最小5KB，图片格式必须为：png、bmp、gif、jpg、jpeg
 	 **/
 	private $shopSignBoardPic;
+	
+	/** 
+	 * 签约且授权标识，默认为false，只进行签约操作； 如果设置为true，则表示签约成功后，会自动进行应用授权操作。
+	 **/
+	private $signAndAuth;
 	
 	/** 
 	 * 企业特殊资质图片，可参考
@@ -149,6 +159,17 @@ class AlipayOpenAgentFacetofaceSignRequest
 		return $this->mccCode;
 	}
 
+	public function setRate($rate)
+	{
+		$this->rate = $rate;
+		$this->apiParas["rate"] = $rate;
+	}
+
+	public function getRate()
+	{
+		return $this->rate;
+	}
+
 	public function setShopScenePic($shopScenePic)
 	{
 		$this->shopScenePic = $shopScenePic;
@@ -169,6 +190,17 @@ class AlipayOpenAgentFacetofaceSignRequest
 	public function getShopSignBoardPic()
 	{
 		return $this->shopSignBoardPic;
+	}
+
+	public function setSignAndAuth($signAndAuth)
+	{
+		$this->signAndAuth = $signAndAuth;
+		$this->apiParas["sign_and_auth"] = $signAndAuth;
+	}
+
+	public function getSignAndAuth()
+	{
+		return $this->signAndAuth;
 	}
 
 	public function setSpecialLicensePic($specialLicensePic)

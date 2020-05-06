@@ -4,7 +4,7 @@ namespace AliPay\Request;
  * ALIPAY API: alipay.eco.cplife.pay.result.query request
  *
  * @author auto create
- * @since 1.0, 2019-01-07 20:51:15
+ * @since 1.0, 2020-02-19 17:05:26
  */
 class AlipayEcoCplifePayResultQueryRequest
 {
