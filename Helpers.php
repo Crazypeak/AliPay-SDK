@@ -123,7 +123,7 @@ class Helpers
         ];
         $request = new AlipayTradeRefundRequest();
         $request->setBizContent(json_encode($data));
-        $result = $aliPay->execute($request);
+        $result = @$this->aliPay->execute($request);
         if (!$result)
             return FALSE;
 
@@ -155,7 +155,7 @@ class Helpers
         ];
         $request = new AlipayFundTransToaccountTransferRequest();
         $request->setBizContent(json_encode($data));
-        $result = $aliPay->execute($request);
+        $result = @$this->aliPay->execute($request);
         if (!$result)
             return FALSE;
 
